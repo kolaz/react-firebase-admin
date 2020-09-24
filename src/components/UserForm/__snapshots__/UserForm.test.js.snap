@@ -6,6 +6,7 @@ exports[`<UserForm /> rendering should render without crashing 1`] = `
     Object {
       "defaultFormats": Object {},
       "defaultLocale": "en",
+      "defaultRichTextElements": undefined,
       "formatDate": [Function],
       "formatDateToParts": [Function],
       "formatDisplayName": [Function],
@@ -143,7 +144,10 @@ exports[`<UserForm /> rendering should render without crashing 1`] = `
     >
       <UserForm
         action={[Function]}
-        userData={
+        isEditing={false}
+        isProfile={false}
+        setUser={[MockFunction]}
+        user={
           Object {
             "createdAt": "11/21/2020",
             "email": "mkrukuy@gmail.com",
